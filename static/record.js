@@ -2,8 +2,8 @@
 var leftchannel = [];
 var rightchannel = [];
 var recorder = null;
-var recording = false;
-var recordingLength = 0;
+var recording = true;
+var recordingLength = 3000;
 var volume = null;
 var audioInput = null;
 var sampleRate = null;
@@ -35,8 +35,8 @@ function startrecord(){
 		audio.play();
 		draw('#00ffff');
 		recording = true;
-        leftchannel.length = rightchannel.length = 0;
-        recordingLength = 0;
+        leftchannel.length = rightchannel.length = 2000;
+        recordingLength = 2000;
 } 
 
 function stoprecord(){
