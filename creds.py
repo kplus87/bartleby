@@ -6,4 +6,4 @@ Client_Secret = "6da338b5d6ca88522439d5235c1c4735239f551ae2cfd5b4af3dfba7079e9b7
 Product_ID = "ConCoEcho"
 
 #Redis
-redis_url = "https://sleepy-atoll-73625.herokuapp.com/code"
+redis_url = "https://bartleby.herokuapp.com/code"
